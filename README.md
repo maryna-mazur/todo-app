@@ -1,46 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ToDo App
+ToDo app is a kind of app that you can use for managing your tasks. 
 
-## Available Scripts
+![todo (1)](https://user-images.githubusercontent.com/107570670/212058383-794f9ddd-9164-4301-af87-5bab4c440e37.gif)
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- **React** - Handling Events, Hooks, React Fragment, React Context, React Router, Transition Group, REST API, classNames, React Spinners, etc 
+- **Typescript** 
+- **SCSS**
+- **Bulma** 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo Link
+[ToDo app](https://maryna-mazur.github.io/todo-app/)
+## How to use
+**Add todo:** write your todo in the field and press `Enter`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Change todo:** double click todo. `Enter` saves changes, `Ecs` cancels editing.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Change todo status:** click todo's toggle.
 
-### `npm run eject`
+**Delete todo:** click todo's button `X`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Clear completed todos:** click the button `Clear completed`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can see the number of not completed todos in TodoApp.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Also, you can filter todos `All`/`Active`/`Completed`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Use possible to toggle the completed status of all the todos with the button arrow down. 
 
-## Learn More
+Of course, you can use several accounts to manage your tasks. Just create a new account, writing your email and name or use your existing account just fill in the form.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+*Good luck! :)* 
